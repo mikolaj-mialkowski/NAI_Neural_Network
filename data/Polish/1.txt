@@ -1,6 +1,4 @@
 Mazurek Dąbrowskiego (posłuchaj muzyki hymnu i) – polska pieśń patriotyczna z 1797 roku, od 26 lutego 1927[1] oficjalny hymn państwowy Rzeczypospolitej Polskiej.
-
-
 Spis treści
 1	Historia hymnu
 2	Wpływ polskiego hymnu na inne pieśni narodowe
@@ -10,14 +8,13 @@ Spis treści
 6	Wykonywanie hymnu
 7	Ochrona hymnu
 8	Zobacz też
-9	Uwagi
+9	Uwagi 
 10	Przypisy
-11	Linki zewnętrzne
+11	Linki zewnętrzne     
 Historia hymnu
+
 Słowa hymnu – nazywanego Pieśnią Legionów Polskich we Włoszech – zostały napisane przez Józefa Wybickiego. Autor melodii, opartej na motywach ludowego mazurka (właściwie mazura) pozostaje nieznany. Początkowo sądzono, że melodię tę skomponował książę Michał Kleofas Ogiński (twórca poloneza – Pożegnanie ojczyzny), potem materiały archiwalne temu zaprzeczyły i do dziś najczęściej autorzy śpiewników i prac naukowych podają określenie „melodia ludowa” (a niektórzy dodają do tego asekuracyjny znak zapytania)[2].
-
 Pieśń powstała w mieście Reggio nell’Emilia w ówczesnej Republice Cisalpińskiej (obecnie północne Włochy)[3], jednak dokładna data i okoliczności jej napisania oraz pierwszego wykonania nie są pewne, do dziś pozostając przedmiotem sporów wśród historyków. Według Wojciecha Podgórskiego było to:
-
 ...między 16, a 19 lipca 1797 r. – pod wpływem pierwszego wzruszenia, jakie opanowało Wybickiego na widok polskich mundurów, orłów, sztandarów – powstały strofy żołnierskiego wyznania wiary: Jeszcze Polska nie umarła[4]
 
 Podobnego zdania jest np. Jan Pachoński[5] i inni badacze. Według Bronisława Bilińskiego[6] pieśń musiała jednak powstać wcześniej – między 10 a 15 lipca, a wskazywać mogą na to ustalenia XIX-wiecznego badacza Mazurka, Wojciecha Sowińskiego, który twierdził, że:
@@ -127,7 +124,6 @@ Na to wszystkich jedne głosy:
 „Dosyć tej niewoli
 mamy Racławickie Kosy,
 Kościuszkę, Bóg pozwoli”.
-
 Analiza tekstu
 
 Józef Wybicki

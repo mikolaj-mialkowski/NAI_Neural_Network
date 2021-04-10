@@ -28,12 +28,11 @@ public class DataBuilder {
     }
 
 
-    public static List<StringBuilder> getStringBuilderOfAllFiles(String directoryAddress) throws IOException {
+    public static List<StringBuilder> getListOfStringBuilderOfAllFiles(String directoryAddress) throws IOException {
         List<StringBuilder> list = new ArrayList<>();
         List<String> fileAddresses = getListOfFiles(directoryAddress);
         for (String fileAddress : fileAddresses)
             list.add(getStringBuilderOfFile(directoryAddress+"\\"+fileAddress));
-
         return list;
     }
 
@@ -44,12 +43,12 @@ public class DataBuilder {
             long totalNumberOfNonAlphabeticalCharacters = stringBuilder.length();
             for (int i = 'a'; i <= 'z'; i++) {
                 char finalCharacter = (char) i;
-                //System.out.println(finalCharacter + " "+ (char) (finalCharacter-32));
                 long count = stringBuilder.chars().filter(character -> ((character == finalCharacter) || (character == (finalCharacter - 32)))).count();
                 totalNumberOfNonAlphabeticalCharacters -= count;
                 map.put((char) i, count);
             }
-            map.put('!', totalNumberOfNonAlphabeticalCharacters);
+            map.put('!', totalNumberOfNonAlphabeticalCharacters); // non-alphabetical
+            map.put('@', (long) stringBuilder.length()); // all characters
             mapList.add(map);
         }
         return mapList;

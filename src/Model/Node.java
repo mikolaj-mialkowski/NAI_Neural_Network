@@ -1,15 +1,33 @@
 package Model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Node {
-    private final List<Double> attributesColumn; //attributes columns
+    private List<Double> attributesColumn; //attributes columns
     private final String nodeClassName; //decision column
 
 
     public Node(List<Double> attributesColumn, String irisClassName) {
         this.attributesColumn = attributesColumn;
         this.nodeClassName = irisClassName;
+    }
+
+    public void normalizeNode(){
+        double sumOfSquares=0;
+
+        for (double d : this.attributesColumn)
+            sumOfSquares=+Math.pow(d,2);
+
+        double length = sumOfSquares;
+        length = Math.sqrt(length);
+
+        List<Double>  newAttributesColumn = new ArrayList<>();
+
+        for (int i = 0; i < this.attributesColumn.size() ; i++)
+            newAttributesColumn.set(i,(this.attributesColumn.get(i)/length));
+
+        this.attributesColumn = newAttributesColumn;
     }
 
     public List<Double> getAttributesColumn() {
