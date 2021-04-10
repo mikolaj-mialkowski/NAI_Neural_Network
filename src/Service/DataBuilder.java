@@ -1,10 +1,7 @@
 package Service;
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class DataBuilder {
 
@@ -31,27 +28,31 @@ public class DataBuilder {
     }
 
 
-    public static StringBuilder getStringBuilderOfAllFiles(String directoryAddress) throws IOException {
+    public static List<StringBuilder> getStringBuilderOfAllFiles(String directoryAddress) throws IOException {
+        List<StringBuilder> list = new ArrayList<>();
         List<String> fileAddresses = getListOfFiles(directoryAddress);
-        StringBuilder stringBuilder = new StringBuilder();
-        for (String fileAddress : fileAddresses) {
-            stringBuilder.append(getStringBuilderOfFile(directoryAddress+"\\"+fileAddress));
-        }
-        return stringBuilder;
+        for (String fileAddress : fileAddresses)
+            list.add(getStringBuilderOfFile(directoryAddress+"\\"+fileAddress));
+
+        return list;
     }
 
-    public static Map<Character, Long> getMapOfLettersInStringBuilder(StringBuilder stringBuilder){
-        Map<Character, Long> map = new HashMap<>();
-        long totalNumberOfNonAlphabeticalCharacters=stringBuilder.length();
-        for (int i = 'a'; i <= 'z'; i++) {
-            char finalCharacter = (char) i;
-            //System.out.println(finalCharacter + " "+ (char) (finalCharacter-32));
-            long count = stringBuilder.chars().filter(character -> ((character == finalCharacter) || (character == (finalCharacter-32)))).count();
-            totalNumberOfNonAlphabeticalCharacters-=count;
-            map.put((char)i,count);
+    public static List<Map<Character, Long>> getListOfMapOfProportions(List<StringBuilder> stringBuilderList){
+        List<Map<Character,Long>> mapList = new ArrayList<>();
+        for (StringBuilder stringBuilder : stringBuilderList) {
+            Map<Character, Long> map = new HashMap<>();
+            long totalNumberOfNonAlphabeticalCharacters = stringBuilder.length();
+            for (int i = 'a'; i <= 'z'; i++) {
+                char finalCharacter = (char) i;
+                //System.out.println(finalCharacter + " "+ (char) (finalCharacter-32));
+                long count = stringBuilder.chars().filter(character -> ((character == finalCharacter) || (character == (finalCharacter - 32)))).count();
+                totalNumberOfNonAlphabeticalCharacters -= count;
+                map.put((char) i, count);
+            }
+            map.put('!', totalNumberOfNonAlphabeticalCharacters);
+            mapList.add(map);
         }
-        map.put('!',totalNumberOfNonAlphabeticalCharacters);
-        return map;
+        return mapList;
     }
 
 
