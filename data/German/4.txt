@@ -1,0 +1,44 @@
+Wasserspiegel
+Zur Navigation springenZur Suche springen
+
+Wehr an der Isar beim Hinterbrühler See
+
+Unterirdischer Wasserspiegel in den St. Beatus-Höhlen
+Als Wasserspiegel bezeichnet man in Geowissenschaft und Technik die geglättete Form einer freien, weitgehend ungestörten Wasserfläche, wie sie sich unter dem Einfluss der Schwerkraft einstellt.
+
+Ein derart geglätteter Wasserspiegel stellt eine Äquipotentialfläche dar, in der kommunizierende Gefäße exakt denselben Wert des Schwerepotentials haben. Davon zu unterscheiden sind die Begriffe „Wasserstand“ (s. unten) und Pegel. Die Theorie der Äquipotentialflächen gilt in Flüssigkeitsbehältern aller Art oder in Rohrleitungen, wenn sie nicht unter Druck stehen und keine merkliche Adhäsion oder Reibung besitzen.
+
+
+Inhaltsverzeichnis
+1	Hydrologie
+1.1	Unterschied Wasserspiegel – Wasserstand
+1.2	Idealisierte, glatt verlaufende Fläche
+2	Spiegelart
+3	Naturwissenschaft und Psychologie
+4	Weblinks
+Hydrologie
+Wenn außer dem Luftdruck noch andere Kräfte wirken, treten Strömungen und Wellen auf. Durch Mittelung wiederholter Messungen über eine gewisse Zeit kann man die ungestörte Oberfläche bestimmen, die überall normal auf die Lotlinien steht. Bei anspruchsvolleren Aufgaben wird statt der Mittelung eine sogenannte Reduktion der Messdaten vorgenommen, wobei die störenden Kräfte mathematisch zu modellieren sind.
+
+Die betrachtete Wasserfläche kann die Oberfläche von Meeren (siehe Geoid) oder von Binnengewässern sein (Flüsse, größere Bäche, Höhlenwasser).
+
+Unterschied Wasserspiegel – Wasserstand
+Demgegenüber meint der Terminus „Wasserstand“ etwas anderes:
+
+er kann auf eine definierte Höhe über dem Meeresspiegel wie etwa das Normalhöhennull oder den Meter über Adria bezogen bzw. umgerechnet sein
+es kann ein Gefälle und daher ein Fließen existieren
+werden einige der o.a. Mittelungen je nach Anwendung nicht vorgenommen,
+sodass sich der „Wasserstand eines Gewässers“ zumindest mit den Gezeiten ändert – siehe Hoch- und Niederwasser, Ebbe und Flut.
+Idealisierte, glatt verlaufende Fläche
+Während kleinräumig – etwa in der Labortechnik – nur geringe Einflüsse den Wasserspiegel stören (beispielsweise die Rand- und Oberflächenspannung), ist dies in der freien Natur anders. Dort wird der Wasserspiegel als dynamischer Mittelwert einer idealisierten, glatt verlaufenden Oberfläche definiert und vor allem von folgenden Einflüssen abstrahiert:
+
+kurzperiodischem Wellengang (nicht hingegen von Perioden über etwa 1 Minute)
+Störungen durch Fahrzeuge und ihrer allfälligen Staueffekte
+kurzfristigen Windeinflüssen wie Böen
+bei lokalen Anwendungen eventuell von der Erdkrümmung (bei Berücksichtigung der Erdkrümmung, die auf 100 Meter bereits fast 1 mm ausmacht, wird aus einer horizontalen Tangentialebene eine Niveaufläche der Erde)
+Gezeiten
+meist auch von längerfristigen Windstaueffekten, wie Driftstrom und Kompensationsstrom in geschlossenen Meeren
+Spiegelart
+Vor der Nutzbarmachung von polierten Metallen und Gläsern dienten Wasserspiegel als Spiegel, was in der antiken Sage von Narziss thematisiert wird: Narziss sieht im Wasserspiegel zum ersten Mal sich selbst. Fiktive Wasserspiegel dienten im 19. Jahrhundert zur Rechtfertigung der Beleuchtungsrichtung des Rampenlichts im Theater. Bis heute werden die Reflexionen von Wasserspiegeln in Landschaftsarchitektur oder Lichtkunst genutzt und sind eine Herausforderung für künstlerische Abbildungen.
+
+Naturwissenschaft und Psychologie
+Abweichungen vom Normal der horizontalen glatten Fläche spielen in zahlreichen Experimenten und wissenschaftlichen Demonstrationen eine Rolle. Isaac Newton verwendete in seinem Eimerversuch einen Wasserspiegel, um die Gravitationskräfte in einem rotierenden Gefäß zu zeigen. Jean Piaget stellte Versuchspersonen im Zusammenhang mit seiner „Theorie der geistigen Entwicklung“ auf die Probe, indem er sie den Wasserspiegel in einem geneigten Glas einzeichnen ließ.
