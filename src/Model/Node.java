@@ -17,7 +17,7 @@ public class Node {
         double sumOfSquares=0;
 
         for (double d : this.attributesColumn)
-            sumOfSquares=+Math.pow(d,2);
+            sumOfSquares+=Math.pow(d,2);
 
         double length = sumOfSquares;
         length = Math.sqrt(length);
@@ -25,7 +25,7 @@ public class Node {
         List<Double>  newAttributesColumn = new ArrayList<>();
 
         for (int i = 0; i < this.attributesColumn.size() ; i++)
-            newAttributesColumn.set(i,(this.attributesColumn.get(i)/length));
+            newAttributesColumn.add(i,(this.attributesColumn.get(i)/length));
 
         this.attributesColumn = newAttributesColumn;
     }

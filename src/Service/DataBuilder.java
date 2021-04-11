@@ -27,7 +27,6 @@ public class DataBuilder {
         return stringBuilder;
     }
 
-
     public static List<StringBuilder> getListOfStringBuilderOfAllFiles(String directoryAddress) throws IOException {
         List<StringBuilder> list = new ArrayList<>();
         List<String> fileAddresses = getListOfFiles(directoryAddress);
@@ -53,11 +52,4 @@ public class DataBuilder {
         }
         return mapList;
     }
-
-
-
-
-
-
-
 }
