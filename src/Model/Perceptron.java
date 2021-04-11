@@ -19,28 +19,10 @@ public class Perceptron {
         this.vectorW = new ArrayList<>();
         for (int i = 0; i < vectorSize ; i++) {
             this.vectorW.add(1.0);
+            //this.vectorW.add(Math.random()*2-1);
         }
-        this.thetaThreshold =1.0;
-    }
-
-    public List<Double> getVectorW() {
-        return vectorW;
-    }
-
-    public void setVectorW(List<Double> vectorW) {
-        this.vectorW = vectorW;
-    }
-
-    public double getThetaThreshold() {
-        return thetaThreshold;
-    }
-
-    public void setThetaThreshold(double thetaThreshold) {
-        this.thetaThreshold = thetaThreshold;
-    }
-
-    public void setAlpha(double alpha) {
-        this.alpha = alpha;
+        this.thetaThreshold = 1.0;
+        //this.thetaThreshold = Math.random()*2-1;
     }
 
     public void learn(Node node, int correctAnswer){

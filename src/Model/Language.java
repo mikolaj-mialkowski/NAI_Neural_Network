@@ -25,8 +25,4 @@ public class Language {
     public List<Map<Character, Long>> getMapList() {
         return mapList;
     }
-
-    public void setMapList(List<Map<Character, Long>> mapList) {
-        this.mapList = mapList;
-    }
 }

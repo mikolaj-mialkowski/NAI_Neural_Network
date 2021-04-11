@@ -27,7 +27,9 @@ public class CheckLanguage extends JFrame {
         exampleLanguageTextArea = new JTextArea();
         checkLanguageButton = new JButton("Check Language!");
         checkLanguageButton.setPreferredSize(new Dimension(100,100));
-        answerLabel = new JLabel("answer");
+        answerLabel = new JLabel();
+        answerLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        answerLabel.setVerticalAlignment(SwingConstants.CENTER);
         checkLanguageButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -54,7 +56,9 @@ public class CheckLanguage extends JFrame {
                             }
                         }
                     }
-                    answerLabel.setText(language);
+                    answerLabel.setText("<html><p><font color=\"#990000\" "
+                            + "size=\"15\" face=\"Verdana\">"+language+"</font> </p></html>");
+                    exampleLanguageTextArea.setText("");
                 }
 
             }
@@ -64,6 +68,7 @@ public class CheckLanguage extends JFrame {
         getContentPane().add(exampleLanguageTextArea,BorderLayout.CENTER);
         getContentPane().add(checkLanguageButton,BorderLayout.SOUTH);
         getContentPane().add(answerLabel,BorderLayout.NORTH);
+
 
         setSize(1000,600);
         setLocation(600,200);

@@ -42,6 +42,7 @@ public class main {
                 for (Perceptron perceptron : perceptronList)
                     perceptron.learn(node, (node.getNodeClassName().equals(perceptron.getTrainedForLanguage()) ? 1 : 0));
         }
+
         for (Perceptron perceptron : perceptronList)
             perceptron.normalizePerceptron();
 
